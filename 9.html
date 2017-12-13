@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>1</title>
+	<script src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+	
+<button id="counter">Click</button>
+<div id="2"></div>
+<div id="3"></div>
+<div id="4"></div>
+
+<a href="http//www.google.com"></a>
+<a href="http//www.mail.ru"></a>
+<a href="http//www.gmail.com"></a>
+<a href="http//www.yandex.ru"></a>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#counter').click(function(){
+			$('#counter').html(+$('#counter').html()+1);
+		});
+	});
+</script>
+<style>
+#counter {
+	border: 1px;
+	width:100px;
+	height:100px;
+}
+</style>
+</body>
+</html>
